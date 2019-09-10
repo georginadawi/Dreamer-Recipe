@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 500px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://68.media.tumblr.com/5be8f407412b3c8992ced3452f784638/tumblr_o2n4dim8Fk1unmyhfo1_500.gif');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media1.tenor.com/images/4b38649a6a55d02417843738b82d5d46/tenor.gif?itemid=12025370');
+}
+
+#our menu  {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.giphy.com/media/GRVQMtQBhMhdC/giphy.gif');
+}
+
+#dessert  {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://68.media.tumblr.com/dbf7fa5cff1104e8a7a85bfcbc4e3d1e/tumblr_osq4dlFgvE1ujzkvvo1_500.gif');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://tse3.mm.bing.net/th?id=OIP.yWUxo4SUkj4N7g1a656H1gHaCx&pid=Api&P=0&w=466&h=175');
+}
